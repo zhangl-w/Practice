@@ -14,6 +14,7 @@ import java.util.ListIterator;
 
 public class LinkedListTest {
 	public static void main(String[] args) {
+		
 		LinkedList<String> list = new LinkedList<String>();
 		list.add("111");
 		list.add("222");
@@ -49,7 +50,7 @@ public class LinkedListTest {
         System.out.println("list.indexOf(213) = " + list.indexOf("213"));
         list.add("123");
         System.out.println("list.lastIndexOf(123) = " + list.lastIndexOf("123"));
-        // 在首部和尾部添加元素
+         // 在首部和尾部添加元素
         list.offerFirst("first");
         list.offerLast("999");
         System.out.println("list = " + list);

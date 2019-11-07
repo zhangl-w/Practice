@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<database-info>
+		<dirver-name>com.mysql.jdbc.Driver</dirver-name>
+		<url>jdbc:mysql://192.168.1.151.8080/scott</url>
+		<user>root</user>
+		<password>root</password>
+	</database-info>
+</config>

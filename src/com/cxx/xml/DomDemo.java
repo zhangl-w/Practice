@@ -4,12 +4,7 @@ import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 public class DomDemo {
-	/**
-	 * @Author: cxx
-	 * Dom操作xml
-	 * @Date: 2018/5/29 20:19
-	 */
-	 //用Element方式
+	
     public static void element(NodeList list){
         for (int i = 0; i <list.getLength() ; i++) {
             Element element = (Element) list.item(i);
@@ -44,7 +39,7 @@ public class DomDemo {
         //2.创建DocumentBuilder对象
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse("src/main/resources/demo.xml");
+            Document d = builder.parse("src/com/cxx/xml/test.xml");
             NodeList sList = d.getElementsByTagName("student");
             //element(sList);
             node(sList);
